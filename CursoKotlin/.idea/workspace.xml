@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b69f0e17-567a-4d8d-9445-fe11609c67f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Const.Java.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Constantes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/CuidadoInferencia2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/TiposBasicos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/FuncaoSemRetorno.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Var.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Variaveis.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CursoKotlin/fundamentos/TiposBasicosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoKotlin/fundamentos/TiposBasicosKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,30 +19,31 @@
     <session id="-1921082311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="12" />
+          <entry key="kt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="12" />
+          <entry key="Kotlin" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1564" />
+          <entry key="kt" value="1734" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1564" />
+          <entry key="Kotlin" value="1734" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,10 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fundamentos/TiposBasicos.kt">
+        <entry file="file://$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="119">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -84,6 +84,8 @@
         <option value="$PROJECT_DIR$/src/fundamentos/Constantes.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/Const.Java.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/TiposBasicos.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/FuncaoSemRetorno.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt" />
       </list>
     </option>
   </component>
@@ -102,6 +104,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,11 +127,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540257736618" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540312529627" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.fundamentos.TiposBasicosKt">
+  <component name="RunManager" selected="Kotlin.fundamentos.FuncaoComRetornoKt">
     <configuration name="fundamentos.Const_JavaKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
@@ -151,6 +153,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="fundamentos.Const_JavaKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fundamentos.FuncaoComRetornoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="CursoKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.FuncaoComRetornoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fundamentos.FuncaoSemRetornoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="CursoKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.FuncaoSemRetornoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,12 +211,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.fundamentos.VariaveisKt" />
       <item itemvalue="Kotlin.fundamentos.Const_JavaKt" />
+      <item itemvalue="Kotlin.fundamentos.VariaveisKt" />
       <item itemvalue="Kotlin.fundamentos.TiposBasicosKt" />
+      <item itemvalue="Kotlin.fundamentos.FuncaoSemRetornoKt" />
+      <item itemvalue="Kotlin.fundamentos.FuncaoComRetornoKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.fundamentos.FuncaoComRetornoKt" />
+        <item itemvalue="Kotlin.fundamentos.FuncaoSemRetornoKt" />
         <item itemvalue="Kotlin.fundamentos.TiposBasicosKt" />
         <item itemvalue="Kotlin.fundamentos.VariaveisKt" />
       </list>
@@ -219,7 +251,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,13 +283,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/CuidadoInferencia.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/CuidadoInferencia.kt" />
     <entry file="file://$PROJECT_DIR$/src/fundamentos/CuidadoInferencia2.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -307,10 +333,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/FuncaoSemRetorno.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fundamentos/TiposBasicos.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
