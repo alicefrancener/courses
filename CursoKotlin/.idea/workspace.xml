@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b69f0e17-567a-4d8d-9445-fe11609c67f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/FuncaoSemRetorno.kt" afterDir="false" />
+    <list default="true" id="b69f0e17-567a-4d8d-9445-fe11609c67f8" name="Default Changelist" comment="Teste de importação de pacotes">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/ChamadaSegura.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/ForcandoExcecaoNullPointer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/NotacaoPonto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/OperadorElvis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/TemplateString1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/TemplateString2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/TesteImport.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/If.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/IfElse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/IfElse2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/IfElseIf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/When.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/pacoteA/Mistura.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/pacoteB/Matematica.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CursoKotlin/fundamentos/TiposBasicosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoKotlin/fundamentos/TiposBasicosKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,40 +34,64 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="15" />
+          <entry key="kt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="15" />
+          <entry key="Kotlin" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1734" />
+          <entry key="kt" value="4258" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1734" />
+          <entry key="Kotlin" value="4258" />
+          <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CursoKotlin" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt">
+        <entry file="file://$PROJECT_DIR$/src/fundamentos/controles/When.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fundamentos/controles/IfElse2.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fundamentos/controles/IfElseIf.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -86,6 +122,21 @@
         <option value="$PROJECT_DIR$/src/fundamentos/TiposBasicos.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/FuncaoSemRetorno.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/TemplateString2.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/NotacaoPonto.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/ChamadaSegura.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/OperadorElvis.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/ForcandoExcessaoNullPointer.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/imports/ExplorandoImports.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/pacoteA/ExplorandoImports.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/pacoteB/Matematica.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/TesteImport.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/TemplateString1.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/controles/if.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/controles/ifElse.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/controles/IfElse2.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/controles/IfElseIf.kt" />
+        <option value="$PROJECT_DIR$/src/fundamentos/controles/When.kt" />
       </list>
     </option>
   </component>
@@ -95,6 +146,74 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypographyUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>UI Form</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -103,8 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,14 +240,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fundamentos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CursoKotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fundamentos" type="462c0819:PsiDirectoryNode" />
+              <item name="controles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540312529627" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540410105665" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.fundamentos.FuncaoComRetornoKt">
+  <component name="RunManager" selected="Kotlin.fundamentos.controles.WhenKt">
     <configuration name="fundamentos.Const_JavaKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
@@ -158,53 +286,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.FuncaoComRetornoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fundamentos.controles.IfElse2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.FuncaoComRetornoKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.IfElse2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.FuncaoSemRetornoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fundamentos.controles.IfElseIfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.FuncaoSemRetornoKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.IfElseIfKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.TiposBasicosKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fundamentos.controles.IfElseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.TiposBasicosKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.IfElseKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.VariaveisKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fundamentos.controles.IfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.VariaveisKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.IfKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fundamentos.controles.WhenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="CursoKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.WhenKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,17 +353,19 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.fundamentos.Const_JavaKt" />
-      <item itemvalue="Kotlin.fundamentos.VariaveisKt" />
-      <item itemvalue="Kotlin.fundamentos.TiposBasicosKt" />
-      <item itemvalue="Kotlin.fundamentos.FuncaoSemRetornoKt" />
-      <item itemvalue="Kotlin.fundamentos.FuncaoComRetornoKt" />
+      <item itemvalue="Kotlin.fundamentos.controles.IfKt" />
+      <item itemvalue="Kotlin.fundamentos.controles.IfElseKt" />
+      <item itemvalue="Kotlin.fundamentos.controles.IfElse2Kt" />
+      <item itemvalue="Kotlin.fundamentos.controles.IfElseIfKt" />
+      <item itemvalue="Kotlin.fundamentos.controles.WhenKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.fundamentos.FuncaoComRetornoKt" />
-        <item itemvalue="Kotlin.fundamentos.FuncaoSemRetornoKt" />
-        <item itemvalue="Kotlin.fundamentos.TiposBasicosKt" />
-        <item itemvalue="Kotlin.fundamentos.VariaveisKt" />
+        <item itemvalue="Kotlin.fundamentos.controles.WhenKt" />
+        <item itemvalue="Kotlin.fundamentos.controles.IfElseIfKt" />
+        <item itemvalue="Kotlin.fundamentos.controles.IfElse2Kt" />
+        <item itemvalue="Kotlin.fundamentos.controles.IfElseKt" />
+        <item itemvalue="Kotlin.fundamentos.controles.IfKt" />
       </list>
     </recent_temporary>
   </component>
@@ -250,24 +393,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.25718608" />
-      <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" weight="0.26096824" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5032787" side_tool="true" weight="0.26096824" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -279,8 +423,38 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Teste de importação de pacotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste de importação de pacotes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/fundamentos/CuidadoInferencia.kt" />
@@ -349,8 +523,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/TemplateString2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/NotacaoPonto.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/ChamadaSegura.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/OperadorElvis.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/ForcandoExcecaoNullPointer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/TesteImport.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#21#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/pacoteB/Matematica.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/pacoteA/Mistura.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/TemplateString1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/controles/IfElse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/controles/If.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="3" selection-start-column="4" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/controles/IfElse2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/controles/IfElseIf.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fundamentos/controles/When.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
