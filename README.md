@@ -3,8 +3,8 @@
 Material do curso de SQL From Data Analysis da [Udacity]((https://classroom.udacity.com/courses/ud198)).
 
 [Formating Your Queries](#formatting-your-queries)  
-SQL Basics
-  - SELECT, FROM
+[SQL Basics](#sql-basics)
+  - SELECT
   - LIMIT
   - ORDER BY
 
@@ -76,7 +76,7 @@ Depending on your SQL environment, your query may need a semicolon at the end to
 - DROP TABLE is a statement that removes a table in a database.
 - SELECT allows you to read data and display it. This is called a **query**.
 
-### SELECT & FROM
+### SELECT
 
 - SELECT indicates which column(s) you want to be given the data for.
 - FROM specifies from which table(s) you want to select the columns. Notice the columns need to exist in this table.
