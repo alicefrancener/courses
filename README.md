@@ -256,7 +256,7 @@ Combinando dois valores booleanos juntos a um operador lógico, você cria uma e
 | Operador | Significado | Exemplo | Como funciona
 |-|-|-|-
 | `&&` | lógico E | `valor1 && valor2` | Retorna `verdadeiro` se ambos o `valor1` e o `valor2` forem avaliados como `verdadeiro`
-| `||` | lógico OU | `valor1 || valor2` | Retorna `verdadeiro` se `valor1` ou `valor2` (ou mesmo ambos!) forem avaliados como `verdadeiro`
+| `\|\|` | lógico OU | `valor1 \|\| valor2` | Retorna `verdadeiro` se `valor1` ou `valor2` (ou mesmo ambos!) forem avaliados como `verdadeiro`
 | `!` | lógico NÂO | `!valor1` | Retorna o oposto do `valor1`. Se `valor1` é `verdadeiro`, então `!valor1` é `falso`
 
 ### Tabelas da verdade
