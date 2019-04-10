@@ -8,7 +8,7 @@ Notas de estudos do curso [Intro to Javascript](https://www.udacity.com/course/i
 2. [Tipos de dados e variáveis](#aula-2-tipos-de-dados-e-variáveis)
 3. [Condicionais](#aula-3-condicionais)
 4. [Loops](#aula-4-loops)
-5. [Funções](#aula-5-funcoes)
+5. [Funções](#aula-5-funções)
 6. [Arrays](#aula-6-arrays)
 7. [Objetos](#aula-7-objetos)
 
@@ -25,7 +25,7 @@ Propriedades
 * dynamically typed language
 * instructions are called statements and are separated by semicolons (;).
 
-`console.log()` é usado para exibir conteúdo para o console do JavaScript
+`console.log()` é usado para exibir conteúdo no console
 
 ***
 
