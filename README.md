@@ -6,7 +6,7 @@ Repositório de estudos da formação [Front-end](https://www.alura.com.br/forma
 
 ### 1. HTML & CSS
   
-- HTML5 e CSS3 I: Suas primeiras páginas da Web | [exercícios](#curso-01-html5-css3)
+- HTML5 e CSS3 I: Suas primeiras páginas da Web | [exercícios](curso-01-html5-css3)
 - HTML5 e CSS3 II: Turbinando suas páginas
 
 ### 2. JavaScript, Ajax e jQuery
