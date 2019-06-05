@@ -17,3 +17,36 @@ main h1 {
 p {
     text-align: justify;
 }
+
+blockquote {
+    background-color: #D9E5E3;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+footer {
+    background-color: #000000;
+    color: #F2FFFC;
+}
+
+main footer {
+    background-color: #F2FFFC;
+    color: #000000;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+main a {
+    color: #851944;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside a {
+    color: inherit;
+    ont-family: "Open Sans Condensed", sans-serif;
+}
