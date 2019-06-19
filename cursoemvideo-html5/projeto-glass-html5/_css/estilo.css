@@ -36,6 +36,7 @@ figure.foto-legenda:hover figcaption {
 }
 
 /* Formatação do Menu */
+
 nav#menu {
   display: block;
 }
@@ -53,8 +54,23 @@ nav#menu li {
   background-color: #dddddd;
   padding: 10px;
   margin: 2px;
+  transition: background-color 1s;
+}
+
+nav#menu li:hover {
+  background-color: #606060;
 }
 
 nav#menu h1 {
   display: none;
+}
+
+nav#menu a{
+  color: black;
+  text-decoration: none;
+}
+
+nav#menu a:hover{
+  color: #ffffff;
+  text-decoration: underline;
 }
