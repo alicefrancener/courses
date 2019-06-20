@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@font-face{
+  font-family: 'FonteLogo';
+  src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
 
 body {
   background-color: #dddddd;
@@ -31,15 +36,15 @@ header#cabecalho {
 }
 
 header#cabecalho h1 {
-  font-family: Arial, sans-serif;
+  font-family: 'FonteLogo', sans-serif;
   font-size: 30px;
   color: #606060;
-  text-shadow: 1px 1px 1px rgb(0,0,0,.6);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, .6);
   padding: 0px;
   margin-bottom: 0px;
 }
 
-header#cabecalho h2{
+header#cabecalho h2 {
   font-family: Arial, sans-serif;
   color: #888888;
   font-size: 15pt;
