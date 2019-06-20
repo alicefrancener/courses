@@ -7,7 +7,6 @@
   src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 
-
 body {
   background-color: #dddddd;
   color: rgba(0, 0, 0, 1);
@@ -123,4 +122,20 @@ nav#menu a {
 nav#menu a:hover {
   color: #ffffff;
   text-decoration: underline;
+}
+
+section#corpo {
+  display: block;
+  width: 500px;
+  float: left;
+}
+
+aside#lateral {
+  display: block;
+  width: 350px;
+  float: right;
+}
+
+footer#rodape{
+  clear: both;
 }
