@@ -8,6 +8,7 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #dddddd;
   color: rgba(0, 0, 0, 1);
 }
@@ -23,6 +24,15 @@ div#interface {
 p {
   text-align: justify;
   text-indent: 50px;
+}
+
+a {
+  color: #606060;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header#cabecalho img#icone {
@@ -130,6 +140,38 @@ section#corpo {
   float: left;
   border-right: 1px solid #606060;
   padding-right: 15px;
+}
+
+article#noticia-principal h2 {
+  font-size: 12pt;
+  color: #606060;
+  background-color: #dddddd;
+  padding: 5px 0px 5px 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+  font-family: 'FonteLogo', sans-serif;
+  font-size: 20pt;
+  color: #606060;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.direita {
+  text-align: right;
+}
+
+header#cabecalho-artigo h2 {
+  font-size: 13pt;
+  color: #cecece;
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+  font-size: 12px;
+  color: #606060;
 }
 
 table#tabelaspec {
