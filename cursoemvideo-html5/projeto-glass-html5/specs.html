@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <title>Tudo sobre Google Glass</title>
   <link rel="stylesheet" href="_css/estilo.css" />
-  <link rel="stylesheet" href="_css/specs.css"/>
+  <link rel="stylesheet" href="_css/specs.css" />
 </head>
 <script src="_javascript/funcoes.js"></script>
 
@@ -60,7 +60,17 @@
         </p>
 
         <section id="conteudo">
-          <img src="_imagens/glass-esquema-marcado.jpg" />
+          <img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa" />
+          <map name="meumapa">
+            <area shape="rect" coords="182,208,263,254"
+              href="google-glass.html#tela" target="janela" />
+            <area shape="circle" coords="157,242,11"
+              href="google-glass.html#camera" target="janela" />
+            <area shape="circle" coords="76,51,11"
+              href="google-glass.html#gadgets" target="janela" />
+            <area shape="poly" coords="28,143,81,214,82,248,25,166"
+              href="google-glass.html#sensores" target="janela" />
+          </map>
           <iframe src="google-glass.html" name="janela"
             id="frame-spec"></iframe>
         </section>
