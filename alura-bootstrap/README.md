@@ -1,6 +1,8 @@
 # Bootstrap 4: Criando uma landing page responsiva
 
-[Material do curso](https://github.com/JulianaAmoasei/alura-bootstrap4)
+Site do curso [Bootstrap 4 | Alura](https://www.alura.com.br/curso-online-bootstrap-landing-page)
+
+[Página desenvolvida no curso](projeto-base/index.html)
 
 ## Documentação usada para auxiliar na criação da página
 
@@ -23,3 +25,7 @@ Jogo [Flexbox Froggy](https://flexboxfroggy.com/#pt-br) para enteder o uso do Fl
 [Google Fonts](https://fonts.google.com/)  
 [Adobe Fonts](https://edgewebfonts.adobe.com/)  
 [Font Squirrel](https://www.fontsquirrel.com/)  
+
+### Material do curso
+
+https://github.com/JulianaAmoasei/alura-bootstrap4
