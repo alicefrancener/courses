@@ -34,7 +34,8 @@ Site do curso [Bootstrap 4 | Alura](https://www.alura.com.br/curso-online-bootst
 
 ## Aula 6: Modais e últimos ajustes
 
-
+- [Modal](https://getbootstrap.com/docs/4.3/components/modal)
+- [Forms](https://getbootstrap.com/docs/4.3/components/forms/)
 
 ## Outros recursos
 
