@@ -10,6 +10,7 @@
   height: 400px;
 }
 
+/*Fonte e cor especiais*/
 .fonte-titulo {
   font-family: 'Pacifico', cursive;
 }
@@ -18,6 +19,7 @@
   color: darkred;
 }
 
+/*Cards*/
 .botao-cor-especial {
   background-color: darkred;
   color: white;
@@ -30,4 +32,8 @@
 .card-posicao-imagem {
   object-fit: cover;
   height: 200px;
+}
+
+.card-largura {
+  width: 18rem;
 }
