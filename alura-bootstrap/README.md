@@ -4,14 +4,24 @@ Site do curso [Bootstrap 4 | Alura](https://www.alura.com.br/curso-online-bootst
 
 [Página desenvolvida no curso](projeto-base/index.html)
 
-## Documentação usada para auxiliar na criação da página
+## Aula 1: instalando o Bootstrap e implementando a navbar
 
+- [BootstrapCDN - get started](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)
 - [Flex](https://getbootstrap.com/docs/4.3/utilities/flex/)
 - [Position](https://getbootstrap.com/docs/4.3/utilities/position/#fixed-top)
+
+## Aula 2: adicionando o carrossel e resolvendo bugs
+
 - [Carousel](https://getbootstrap.com/docs/4.3/components/carousel/)
 - [Sizing](https://getbootstrap.com/docs/4.3/utilities/sizing/#relative-to-the-parent)
 - [Typography](https://getbootstrap.com/docs/4.3/content/typography/)
+- [Text alignment](https://getbootstrap.com/docs/4.3/utilities/text/#text-alignment)
+
+## Aula 3: Títulos, textos e ferramentas de espaçacamento
+
+- [Colors](https://getbootstrap.com/docs/4.3/utilities/colors/)
+- [Spacing](https://getbootstrap.com/docs/4.3/utilities/spacing/#how-it-works)
 
 ## Outros recursos
 
