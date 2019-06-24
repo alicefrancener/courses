@@ -7,6 +7,7 @@
 - [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)
 - [Flex](https://getbootstrap.com/docs/4.3/utilities/flex/)
 - [Position](https://getbootstrap.com/docs/4.3/utilities/position/#fixed-top)
+- [Carousel](https://getbootstrap.com/docs/4.3/components/carousel/)
 
 ## Flex
 
