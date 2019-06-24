@@ -4,14 +4,14 @@ Site do curso [Bootstrap 4 | Alura](https://www.alura.com.br/curso-online-bootst
 
 [Página desenvolvida no curso](projeto-base/index.html)
 
-## Aula 1: instalando o Bootstrap e implementando a navbar
+## Aula 1: Instalando o Bootstrap e implementando a navbar
 
 - [BootstrapCDN - get started](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)
 - [Flex](https://getbootstrap.com/docs/4.3/utilities/flex/)
 - [Position](https://getbootstrap.com/docs/4.3/utilities/position/#fixed-top)
 
-## Aula 2: adicionando o carrossel e resolvendo bugs
+## Aula 2: Adicionando o carrossel e resolvendo bugs
 
 - [Carousel](https://getbootstrap.com/docs/4.3/components/carousel/)
 - [Sizing](https://getbootstrap.com/docs/4.3/utilities/sizing/#relative-to-the-parent)
@@ -22,6 +22,19 @@ Site do curso [Bootstrap 4 | Alura](https://www.alura.com.br/curso-online-bootst
 
 - [Colors](https://getbootstrap.com/docs/4.3/utilities/colors/)
 - [Spacing](https://getbootstrap.com/docs/4.3/utilities/spacing/#how-it-works)
+
+## Aula 4: Conhecendo o HTML semântico e inserindo cards
+
+- [Cards](https://getbootstrap.com/docs/4.3/components/card/)
+
+## Aula 5: Alinhando elementos com Bootstrap Grid
+
+- [Grid](https://getbootstrap.com/docs/4.3/layout/grid/)
+- [Background color](https://getbootstrap.com/docs/4.3/utilities/colors/#background-color)
+
+## Aula 6: Modais e últimos ajustes
+
+
 
 ## Outros recursos
 
@@ -35,6 +48,10 @@ Jogo [Flexbox Froggy](https://flexboxfroggy.com/#pt-br) para enteder o uso do Fl
 [Google Fonts](https://fonts.google.com/)  
 [Adobe Fonts](https://edgewebfonts.adobe.com/)  
 [Font Squirrel](https://www.fontsquirrel.com/)  
+
+### HTML5 semântica
+
+[HTML5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 ### Material do curso
 
