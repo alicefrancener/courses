@@ -1,6 +1,11 @@
 /*Configura imagem do carrossel*/
-.imagem-carrossel {
+.imagem-carrossel-um {
   object-fit: cover;
   object-position: 0 80%;
+  height: 400px;
+}
+
+.imagem-carrossel-dois {
+  object-fit: cover;
   height: 400px;
 }
