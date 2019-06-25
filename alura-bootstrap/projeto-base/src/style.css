@@ -1,0 +1,39 @@
+/*Configura imagem do carrossel*/
+.imagem-carrossel-um {
+  object-fit: cover;
+  object-position: 0 80%;
+  height: 400px;
+}
+
+.imagem-carrossel-dois {
+  object-fit: cover;
+  height: 400px;
+}
+
+/*Fonte e cor especiais*/
+.fonte-titulo {
+  font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+  color: darkred!important;
+}
+
+/*Cards*/
+.botao-cor-especial {
+  background-color: darkred;
+  color: white;
+}
+
+.borda-cor-especial {
+  border-color: darkred;
+}
+
+.card-posicao-imagem {
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-largura {
+  max-width: 18rem;
+}
