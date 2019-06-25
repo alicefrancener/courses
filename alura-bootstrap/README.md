@@ -1,8 +1,7 @@
 # Bootstrap 4: Criando uma landing page responsiva
 
-Site do curso [Bootstrap 4 | Alura](https://www.alura.com.br/curso-online-bootstrap-landing-page)
-
-[Página desenvolvida no curso](projeto-base/index.html)
+[Bootstrap 4: Criando uma landing page responsiva | Alura](https://www.alura.com.br/curso-online-bootstrap-landing-page)  
+[Projeto desenvolvido no curso](projeto-base/)
 
 ## Aula 1: Instalando o Bootstrap e implementando a navbar
 
