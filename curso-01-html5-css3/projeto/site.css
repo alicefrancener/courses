@@ -18,6 +18,7 @@ main h1 {
     margin: 0;
     border-bottom: 10px solid black;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 aside h1 {
