@@ -65,6 +65,10 @@ nav a {
     color: #F2FFFC;
 }
 
+aside li {
+    display: inline-block;
+}
+
 main a {
     color: #851944;
     font-family: "Open Sans Condensed", sans-serif;
