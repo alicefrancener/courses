@@ -64,6 +64,7 @@ main footer {
 
 nav a {
     color: #F2FFFC;
+    text-transform: lowercase;
 }
 
 .icones-sociais li {
