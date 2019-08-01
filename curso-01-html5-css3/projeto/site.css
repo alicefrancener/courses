@@ -28,6 +28,7 @@ aside h1 {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 p {
@@ -67,6 +68,10 @@ nav a {
     text-transform: lowercase;
 }
 
+aside {
+    clear: right;
+}
+
 .icones-sociais li {
     display: inline-block;
 }
@@ -98,7 +103,6 @@ main a {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
-
 }
 
 main div {
@@ -117,4 +121,27 @@ strong {
 
 em {
     font-style: italic;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+aside, img {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
 }
