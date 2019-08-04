@@ -68,10 +68,6 @@ nav a {
     text-transform: lowercase;
 }
 
-aside {
-    clear: right;
-}
-
 .icones-sociais li {
     display: inline-block;
 }
@@ -84,15 +80,15 @@ aside {
 }
 
 .github {
-    background-image: url(github.png);
+    background-image: url(img/github.png);
 }
 
 .twitter {
-    background-image: url(twitter.png);
+    background-image: url(img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(linkedin.png);
+    background-image: url(img/linkedin.png);
 }
 
 main a {
@@ -108,7 +104,8 @@ aside a {
 main div {
     width: 720px;
     margin: auto;
-    padding: 30px 0;
+    padding: 40px 0;
+    padding-bottom: 80px;
 }
 
 ul {
@@ -136,12 +133,30 @@ main {
     width: 85%;
 }
 
-aside, img {
+aside,
+.minha-foto {
     float: right;
-    width: 15%;
     box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+aside {
+    clear: right;
+    width: 15%;
+    top: 235px;
+    position: relative;
 }
 
 footer {
     clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
