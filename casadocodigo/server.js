@@ -1,11 +1,10 @@
-const express = require('express');
-const app = express();
+const app = require('./src/config/custom-express');
 
 app.listen(3000, function () {
     console.log(`Servidor rodando na porta 3000`);
 });
 
-// Primeiro parâmetro: rota que quero atender, função que será executa
+// Primeiro parâmetro: rota que quero atender; Segundo parâmetro: função que será executa
 app.get('/', function (req, resp) {
     resp.send(`
     <html>
