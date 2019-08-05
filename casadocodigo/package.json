@@ -1,0 +1,15 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "Livraria Casa do Codigo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alice Francener",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
