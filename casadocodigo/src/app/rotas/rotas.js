@@ -36,6 +36,10 @@ module.exports = (app) => {
 
   app.post('/livros', function(req, resp) {
     console.log(req.body);
-});
+    const livroDao = new LivroDao(db);
+    livroDao.adiciona(req.body)
+      .then(resp.redirect('/livros')) //quando terminar de add o livro ao bd, redireciona para listagem de livros
+      .catch(erro => console.log(erro));
+  });
 
 }
