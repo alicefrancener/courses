@@ -18,7 +18,6 @@ module.exports = (app) => {
   });
 
   app.get('/livros', function(req, resp) {
-
     const livroDao = new LivroDao(db);
     livroDao.lista()
       .then(livros => resp.marko(
@@ -40,6 +39,14 @@ module.exports = (app) => {
     livroDao.adiciona(req.body)
       .then(resp.redirect('/livros')) //quando terminar de add o livro ao bd, redireciona para listagem de livros
       .catch(erro => console.log(erro));
+  });
+  
+  app.delete('/livros/:id', function(req, resp) {
+    const id = req.params.id;
+    const livroDao = new LivroDao(db);
+    livroDao.remove(id)
+    .then(() => resp.status(200).end())
+    .catch(erro => console.log(erro));
   });
 
 }
