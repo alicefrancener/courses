@@ -1,80 +1,46 @@
 FORMAT: 1A
-HOST: http://polls.apiblueprint.org/
 
-# Teste
+# Oral Cancer Detect API
+Oral Cancer Detetec API.
 
-Polls is a simple API allowing consumers to view polls and vote in them.
+# Group Locais de Atendimento
 
-## Questions Collection [/questions]
+## Locais de Atendimento [/locaisDeAtendimento]
 
-### List All Questions [GET]
-
+### Obter Locais de Atendimento [GET]
 + Response 200 (application/json)
+    + Attributes (array[LocalDeAtendimento])
++ Response 401 (application/json)
+    { "message": "Não autorizado" }
++ Response 404 (application/json)
+    { "message": "O servidor não pode encontrar o recurso solicitado."}
 
-        [
-            {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
-                    {
-                        "choice": "Swift",
-                        "votes": 2048
-                    }, {
-                        "choice": "Python",
-                        "votes": 1024
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 512
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 256
-                    }
-                ]
-            }
-        ]
+## Locais de Atendimento por região [/locaisDeAtendimento/{regiao}]
 
-### Create a New Question [POST]
+### Obter Locais de Atendimento por região [GET]
++ Parameters
+    + regiao (string) - Região de um local de atendimento.
++ Response 200 (application/json)
+    + Attributes (array[LocalDeAtendimento])
++ Response 401 (application/json)
+    { "message": "Não autorizado" }
++ Response 404 (application/json)
+    { "message": "O servidor não pode encontrar o recurso solicitado."}
 
-You may create your own question using this action. It takes a JSON
-object containing a question and a collection of answers in the
-form of choices.
+# Data Structures
 
-+ Request (application/json)
+## LocalDeAtendimento
++ id (string)
++ nome (string) - Nome do Local de Atendimento
++ tipo (string) - Tipo do Local de Atendimento
++ regiao (string) - Região do Local de Atendimento
++ bairro (string) - Bairro do Local de Atendimento
++ cidade (string) - Cidade do Local de Atendimento
 
-        {
-            "question": "Favourite programming language?",
-            "choices": [
-                "Swift",
-                "Python",
-                "Objective-C",
-                "Ruby"
-            ]
-        }
-
-+ Response 201 (application/json)
-
-    + Headers
-
-            Location: /questions/2
-
-    + Body
-
-            {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
-                    {
-                        "choice": "Swift",
-                        "votes": 0
-                    }, {
-                        "choice": "Python",
-                        "votes": 0
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 0
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 0
-                    }
-                ]
-            }
+## Paciente
++ id (string)
++ nomePaciente (string)
++ regiao (string)
++ ultimaData (string)
++ ultimoProcedimento (string)
++ status (string)
