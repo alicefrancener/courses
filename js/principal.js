@@ -12,11 +12,13 @@ for (var i = 0; i < pacientes.length; i++) {
     if (peso <= 0 || peso >= 1000) {
         pesoEhValido = false;
         pacientes[i].querySelector('.info-peso').textContent = 'Peso Inválido';
+        pacientes[i].classList.add('paciente-invalido');
     }
 
     if (alta <= 0 || altura >= 3.0) {
         alturaEhValida = false;
         pacientes[i].querySelector('.info-altura').textContent = 'Peso Inválido';
+        pacientes[i].classList.add('paciente-invalido');
     }
 
     if (pesoEhValido && alturaEhValida) {
