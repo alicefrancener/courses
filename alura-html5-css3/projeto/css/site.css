@@ -1,0 +1,162 @@
+body {
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", serif;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+main h1 {
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    margin: 0;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 30px;
+    clear: both;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+    padding: 20px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing: border-box;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+main footer {
+    background-color: #F2FFFC;
+    color: #000000;
+}
+
+nav a {
+    color: #F2FFFC;
+    text-transform: lowercase;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github {
+    background-image: url(img/github.png);
+}
+
+.twitter {
+    background-image: url(img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(img/linkedin.png);
+}
+
+main a {
+    color: #851944;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+    padding: 40px 0;
+    padding-bottom: 80px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+aside,
+.minha-foto {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+aside {
+    clear: right;
+    width: 15%;
+    top: 235px;
+    position: relative;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
