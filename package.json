@@ -1,0 +1,14 @@
+{
+  "name": "leituras",
+  "version": "1.0.0",
+  "description": "devocionais",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alice Francener",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
