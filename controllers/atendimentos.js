@@ -20,4 +20,9 @@ module.exports = app => {
     const atendimento = req.body;
     Atendimento.adiciona(atendimento, res);
   });
+
+  app.delete("/atendimentos/:id", (req, res) => {
+    const id = parseInt(req.params.id);
+    Atendimento.deleta(id, res);
+  });
 };
