@@ -24,7 +24,7 @@ class Atendimento {
     const sql = "INSERT INTO Atendimentos SET ?";
     conexao.query(sql, atendimento, (erro, resultados) => {
       if (erro) res.status(400).json(erro);
-      else res.status(201).json(resultados);
+      else res.status(201).json(atendimento);
     });
   }
 
@@ -32,7 +32,7 @@ class Atendimento {
     const sql = "UPDATE Atendimentos SET ? WHERE id=?";
     conexao.query(sql, [valores, id], (erro, resultados) => {
       if (erro) res.status(400).json(erro);
-      else res.status(201).json(resultados);
+      else res.status(201).json({...valores, id});
     });
   }
 
