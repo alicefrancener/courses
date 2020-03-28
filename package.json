@@ -1,7 +1,7 @@
 {
-  "name": "leituras",
+  "name": "agenda-petshop",
   "version": "1.0.0",
-  "description": "devocionais",
+  "description": "Agenda para marcar atendimento em petshop",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
