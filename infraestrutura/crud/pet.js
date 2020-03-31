@@ -1,10 +1,10 @@
 const executaQuery = require("../database/queries");
 
 class Pet {
-  lista(res) {
+  lista() {
     const sql = "SELECT * FROM Pets";
 
-    executaQuery(res, sql);
+    return executaQuery(sql);
   }
 
   buscaPorId(res, id) {
