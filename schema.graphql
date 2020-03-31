@@ -7,9 +7,9 @@ type Cliente {
 type Pet {
   id: ID!
   nome: String!
-  donoId: Int!
   tipo: String
   observacoes: String
+  dono: Cliente!
 }
 
 type Mutation {
