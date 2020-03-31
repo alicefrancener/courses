@@ -23,6 +23,13 @@ type Mutation {
     tipo: String
     observacoes: String
   ): Pet!
+  atualizarPet(
+    id: ID!
+    nome: String!
+    donoId: Int!
+    tipo: String
+    observacoes: String
+  ): Pet!
 }
 
 type Query {
