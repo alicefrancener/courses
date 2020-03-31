@@ -26,7 +26,8 @@ const resolvers = {
     atualizarCliente: (root, params) => Clientes.atualiza(params),
     deletarCliente: (root, { id }) => Clientes.deleta(id),
     adicionarPet: (root, params) => Pets.adiciona(params),
-    atualizarPet: (root, params) => Pets.atualiza(params)
+    atualizarPet: (root, params) => Pets.atualiza(params),
+    deletarPet: (root, { id }) => Pets.deleta(id)
   }
 };
 

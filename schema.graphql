@@ -30,6 +30,7 @@ type Mutation {
     tipo: String
     observacoes: String
   ): Pet!
+  deletarPet(id: ID!): ID!
 }
 
 type Query {
