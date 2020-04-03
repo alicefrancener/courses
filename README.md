@@ -2,6 +2,9 @@
 
 Conteúdo combinado de alguns cursos online que fiz.
 
+- [GraphQL](https://www.alura.com.br/curso-online-graphql)
+  - Projeto que transforma a API Rest do projeto abaixo para API GraphQL (resultado [aqui](/alura-api-graphql-node)). 
+
 - [Rest com NodeJS: API com Express e MySQL](https://www.alura.com.br/curso-online-node-rest-api)
   - Curso resultou em criação de uma API REST (projeto [aqui](/alura-api-rest-nodejs)), utilizando Express para criar servidor e MySQL para persistência. Foram utilizados os pacotes: body-parser, consign, express, mysql, nodemom. Foi utilizado Postman para consumir API.
   
